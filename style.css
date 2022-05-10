@@ -1,0 +1,38 @@
+body {
+    background-color: #c5d9e2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    margin: 10px 450px;
+}
+ul, ol {
+    margin-top: 80px;
+}
+li {
+    font-size: 1.1rem;
+    margin: 0 120px;
+}
+ol > ul, ul > ol,.nested {
+    margin-top: 10px;
+}
+.container {
+    border: 5px solid #1d70a2;
+    margin: 50px 50px 2px 50px;
+    height: 50vh;
+    border-radius: 35%;
+    letter-spacing: 1px;
+    transition: all 0.15s ease-in-out;
+}
+
+.container:hover {
+    background-color: #1d70a2;
+}
+.long {
+    height: 65vh;
+}
+@media (max-device-width: 906px) {
+    h1, h2 {
+        margin: 10px 250px;
+    }
+}
